@@ -16,11 +16,10 @@ The detailed R scripts can be found in the ```Phylosim-Scripts``` directory with
 MEGA-11 can be downloaded and installed from the official website, based on your system requirements.
 
 ### Workflow
-Talk about the Phylosim, Real data, MEGA-11 tool. Explain why the MEGA11 tool was used. Comaprison Metrics. 
+Generate Simulated Data (Phylosim) --> Reconstruct Tree (MEGA-11) --> Compare Trees (Visual TreeCmp) --> Evaluate Accuracy
 
-### Scripts
-
-### Data Generated using Phylosim. 
+### Criteria for Data Simulation 
+The simulated data consists of DNA sequences generated using two models: the simple JC69 model with equal substitution rates and the complex GTR + I + R model with unequal rates, invariant sites, and rate heterogeneity. The simulations vary by the number of taxa (10, 25, 50) and sequence lengths (500, 1000, 1500 nucleotides), creating 18 reference tree variants. These parameters allow for testing different evolutionary scenarios and complexities in phylogenetic tree construction.
 
 ### Results
-Detailed results are put in the Repository under. 
+Detailed results are provided in the ```Report.pdf```, which is available in the repository.
