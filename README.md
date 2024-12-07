@@ -22,7 +22,7 @@ TreeCmp as a command-line tool and a web-based version (Visual TreeCmp), can be 
 Generate Simulated Data (Phylosim) --> Reconstruct Tree (MEGA-11) --> Compare Trees (Visual TreeCmp) --> Evaluate Accuracy
 
 ### Data Simulation 
-The simulated data consists of DNA sequences generated using two models: the simple JC69 model with equal substitution rates and the complex GTR + I + R model with unequal rates, invariant sites, and rate heterogeneity. The simulations vary by the number of taxa (10, 25, 50) and sequence lengths (500, 1000, 1500 nucleotides), creating 18 reference tree variants. These parameters allow for testing different evolutionary scenarios and complexities in phylogenetic tree construction.
+The simulated data consists of DNA sequences generated using two models: the simple JC69 model with equal substitution rates and the complex GTR + I + R model with unequal rates, invariant sites, and rate heterogeneity. The simulations vary by the number of taxa (10, 25, 50) and sequence lengths (500, 1000, 1500 nucleotides), creating 18 reference tree variants. These parameters allow for testing different evolutionary scenarios and complexities in phylogenetic tree construction. The simulated data is present in the ```Data``` folder in the repository.
 
 ### Results
-Detailed result files, including ```Execution_Stats.xlsx```, ```Evaluation_Metrics.xlsx```, and the comprehensive ```Report.pdf```, are located in the Results directory.
+Detailed result files, including ```Execution_Stats.xlsx```, ```Evaluation_Metrics.xlsx```, and the comprehensive ```Report.pdf```, are located in the Results folder.
