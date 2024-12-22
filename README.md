@@ -7,7 +7,7 @@ This study aims to identify a phylogenetic tree construction method balancing ac
 ### Tools and Dependencies
   	
 1. Phylosim
-An R package for simulating molecular sequence evolution along phylogenetic trees. Phylosim supports both simple and complex evolutionary models, allowing precise control over sequence length, taxa, and substitution rates. It generates reference datasets for benchmarking tree construction methods.
+R package for simulating molecular sequence evolution along phylogenetic trees. Phylosim supports both simple and complex evolutionary models, allowing precise control over sequence length, taxa, and substitution rates. It generates reference datasets for benchmarking tree construction methods.
 The detailed R scripts can be found in the ```Phylosim-Scripts``` folder.
 	
 2. MEGA-11
@@ -19,7 +19,7 @@ A tool for comparing phylogenetic trees using topological and weighted metrics. 
 TreeCmp as a command-line tool and a web-based version (Visual TreeCmp), can be cloned from git ``` git clone --recursive https://github.com/TreeCmp/TreeCmp.git ```
 
 ### Workflow
-Generate Simulated Data (Phylosim) --> Reconstruct Tree (MEGA-11) --> Compare Trees (Visual TreeCmp) --> Evaluate Accuracy
+Generate Simulated Data (Phylosim) --> Reconstruct Tree (MEGA-11) --> Compare Trees (Visual TreeCmp) --> Evaluate Accuracy/ Computational Efficiency 
 
 ### Data Simulation 
 The simulated data consists of DNA sequences generated using two models: the simple JC69 model with equal substitution rates and the complex GTR + I + R model with unequal rates, invariant sites, and rate heterogeneity. The simulations vary by the number of taxa (10, 25, 50) and sequence lengths (500, 1000, 1500 nucleotides), creating 18 reference tree variants. These parameters allow for testing different evolutionary scenarios and complexities in phylogenetic tree construction. The simulated data is present in the ```Simulated_Data``` folder in the repository.
